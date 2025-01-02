@@ -1,3 +1,6 @@
+# prompt bash ---------------------
+export PS1='[sathvikpn]:\W -> '
+
 # ssh ----------------------------
 alias sshlist='grep -w "Host" ~/.ssh/config'
 alias sshconfig='vim ~/.ssh/config'
@@ -12,9 +15,6 @@ alias c='tty-clock -C 6 -t -c'
 alias ws='tmux attach-session -t sathvikpn || tmux new-session -s sathvikpn -n home 2>/dev/null'
 
 # xpanes -------------------
-
-# prompt bash ---------------------
-export PS1='[sathvikpn]:\W -> '
 
 # open file in vscode editor ---------------
 alias vso='code -r ' # vsopen
