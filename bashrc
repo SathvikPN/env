@@ -14,6 +14,8 @@ alias ws='tmux attach-session -t sathvikpn || tmux new-session -s sathvikpn -n h
 # xpanes -------------------
 
 # prompt bash ---------------------
-PS1='[sathvikpn]:\W -> '
+export PS1='[sathvikpn]:\W -> '
 
+# open file in vscode editor ---------------
+alias vso='code -r ' # vsopen
 
