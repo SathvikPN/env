@@ -1,0 +1,15 @@
+# replace the following:
+# <NAME> <EMAIL> <PERSONAL_ACCESS_TOKEN>
+
+[init]
+    defaultBranch = main
+[user]
+	name = <NAME>
+	email = <EMAIL>
+[url "https://x-oauth-basic:<PERSONAL_ACCESS_TOKEN>@github.com/"]
+	insteadof = https://github.com 
+[core]
+	editor = vim 
+[alias]
+	olog = log --oneline
+	bapply = apply --reject --whitespace=fix # better-apply (.rej for rejected parts)

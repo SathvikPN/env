@@ -1,0 +1,8 @@
+LINUX SCREEN UTILITY --------------------------------------------------------------------
+screen -s [session-name]
+screen -ls
+screen -r [re-attach-screen-process-id]
+pkill screen (delete all screens)
+
+[shortcuts]
+Ctrl-a + d (detach current screen session)
